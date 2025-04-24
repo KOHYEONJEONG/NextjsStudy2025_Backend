@@ -23,5 +23,13 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/ban-types': 'off',
+
+    "prettier/prettier": [ //Delete `CR` eslint(prettier/prettier) 에러 해결법 s
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]// Delete `CR` eslint(prettier/prettier) 에러 해결법 e
+
   },
 };
