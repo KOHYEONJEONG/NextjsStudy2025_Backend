@@ -65,6 +65,8 @@ DATABASE_URL="방금 복사한 Connection String"
 
 각 변수의 값에서 [YOUR-PASSWORD] 로 표시된 부분을 앞서 설정한 데이터베이스 비밀번호로 변경합니다. 이때 대괄호까지 함께 삭제해야 합니다.
 
+🚩🚩🚩며칠동안 미접속 시 db 사라지니 복구하기 : https://supabase.com/dashboard/org/tqryvgctnuzxlizeapve
+
 <details>
 <summary><b>비밀번호를 까먹었다면?</b></summary>
 <div markdown="1">
