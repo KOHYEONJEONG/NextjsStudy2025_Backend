@@ -14,6 +14,8 @@ export class ReviewService {
   }
 
   async findAllReviews() {
+    //Prisma ORM을 사용해서 review 테이블의 모든 데이터를 조회
+    //Next.js + TypeScript + Prisma ORM 조합에서 사용하는 Prisma 코드
     return await this.prisma.review.findMany({
       orderBy: {
         createdAt: 'desc',
