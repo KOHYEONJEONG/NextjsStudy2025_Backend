@@ -20,6 +20,8 @@ Node.js 22(or 그 이상의 LTS) 이상의 버전이 필요합니다. (25.02.21 
 ```
 
 ### 3. Supabse 설정하기
+(클라우드 서비스)
+🚨회원가입 < 로그인 < 프로젝트 생성 < 상단 Connect 버튼 클릭하기 < ORMs탭 클릭하기 - Prisma 선택
 
 Supabase에 가입한 다음 새로운 프로젝트를 생성합니다.
 
@@ -80,7 +82,7 @@ DATABASE_URL="방금 복사한 Connection String"
 </div>
 </details>
 
-### 4. 데이터베이스 스키마 설정하기
+### 4. 데이터베이스 스키마 설정하기(초기화)
 
 다음 명령어를 입력해 데이터베이스(Supabase) 스키마를 자동 설정합니다.
 
@@ -111,6 +113,7 @@ npm run seed
 
 ```
 > npm run start:dev
+> npm run start
 ```
 
 ### 7. 데이터베이스 실시간 확인하기
@@ -132,6 +135,6 @@ npx prisma studio
 
 <img width="1496" alt="image" src="https://github.com/winterlood/onebite-books-server/assets/46296754/e55f176b-8641-4484-bf36-9a3bc7590ac5">
 
-### 9. 현재 서버가 사용중인 데이터들을 조회할 수 있는 별도의 페이지로 접속속
-
+### 9. 현재 서버가 사용중인 데이터들을 조회할 수 있는 별도의 페이지로 접속
+(새로운 터미널 열어서 보기, 편함)
 npx prisma studio
